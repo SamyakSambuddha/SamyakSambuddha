@@ -15,7 +15,7 @@ body {
     justify-content: center;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 10000px) {
     .container {
         width: 30%;
     }
@@ -51,3 +51,10 @@ a {
     margin-top: 20px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
