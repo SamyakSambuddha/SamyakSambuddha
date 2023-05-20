@@ -1,21 +1,53 @@
 body {
-  background-color: aqua;
-  color: red;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    align-items: center;
+    justify-content: center;
 }
-h1 {
-  color: blue;
-  background-color: chartreuse;
+
+.container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
 }
-p {
-  color: red;
+
+@media (min-width: 992px) {
+    .container {
+        width: 30%;
+    }
 }
-div {
-  background-color: chartreuse;
-  background-size: color;
-  margin: 1px;
-  padding: 10px;
+
+form {
+    display: flex;
+    flex-direction: column;
 }
-button {
-  color: blueviolet;
-  background-color: whitesmoke;
+
+input {
+    padding: 10px;
+    outline: none;
+}
+
+.label-text {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a {
+    font-size: 14px;
+    color: #186CA3;
+    text-decoration: none;
+}
+
+.signin-btn {
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
 }
