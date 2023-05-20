@@ -2,34 +2,30 @@
 <html>
 
 <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sign up</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="../styles/sign-up.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include CSS stylesheet index.css here -->
+    
+     <link rel="stylesheet" href="styles/sign-up.css" /> 
+  
 </head>
 
 <body>
-        <div class="container">
-                <h1 style="text-align: center;">Sign up
-                        <a href="../index.html"> or Log in</a>
-                </h1>
-                <form>
-                        <label for="firstName" class="label-text">First name</label>
-                        <input type="text" id="firstName" placeholder="e.g., Mark" required>
-                        <label for="lastName" class="label-text">Last name</label>
-                        <input type="text" id="lastName" placeholder="e.g., Green" required>
-                        <label for="email" class="label-text">Email</label>
-                        <input type="email" id="email" placeholder="e.g., me@example.com" required>
-                        <label for="password" class="label-text">Password</label>
-                        <input type="password" id="password" placeholder="e.g., **********" required>
-                        <label for="mobile" class="label-text">Mobile number</label>
-                        <input type="tel" id="mobile" placeholder="e.g., 9988776655" required>
-                        <a href="news.html"><button type="submit" onclick="signup(firstName,lastName, email, password, mobile)" class="signin-btn">Sign up</button></a>
-                </form>
-        </div>
+    <div class="container">
+    <h1 style="text-align: center;">Log in 
+    <a href="html/sign-up.html"> or Sign up</a> 
+    </h1>
+    <form>
+        <label><h3>Username</h3> </label>
+        <input type="email" placeholder="eg. username@gmail.com" required> <br>
+        <label> <h3> Password </h3> </label>
+        <input type="password" placeholder="eg. P@sWard123" required> <br>
+        <button style="background-color: green; color:white; font-width: bolder; font-size: 16px;
+    margin-top: 20px; padding:10px; cursor: pointer;">LogIn</button>
+    </form>
+   </div>
 </body>
-
-
 
 </html>
